@@ -14,8 +14,6 @@ function App() {
       <Footer viewCart={viewCart} />
     </>
   );
-
   return content;
 }
-
 export default App;

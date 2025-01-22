@@ -7,7 +7,6 @@ export type ProductType = {
 };
 
 // const initState: ProductType[] = [];
-
 const initState: ProductType[] = [
   {
     sku: "item0001",
@@ -27,9 +26,7 @@ const initState: ProductType[] = [
 ];
 
 export type UseProductsContextType = { products: ProductType[] };
-
 const initContextState: UseProductsContextType = { products: [] };
-
 const ProductsContext = createContext<UseProductsContextType>(initContextState);
 
 type ChildrenType = {
@@ -61,5 +58,4 @@ export const ProductsProvider = ({ children }: ChildrenType): ReactElement => {
     </ProductsContext.Provider>
   );
 };
-
 export default ProductsContext;

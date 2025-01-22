@@ -18,7 +18,7 @@ const Product = ({
   // const img: string = require(`../images/${product.sku}.jpg`);
   const img: string = new URL(`../images/${product.sku}.jpg`, import.meta.url)
     .href;
-  console.log(img);
+  console.log(img); // ex. http://localhost:5173/src/images/item0001.jpg
 
   const onAddToCart = () =>
     dispatch({ type: REDUCER_ACTIONS.ADD, payload: { ...product, qty: 1 } });
@@ -38,7 +38,6 @@ const Product = ({
       <button onClick={onAddToCart}>Add to Cart</button>
     </article>
   );
-
   return content;
 };
 
@@ -57,5 +56,4 @@ function areProductsEqual(
 }
 
 const MemoizedProduct = memo<typeof Product>(Product, areProductsEqual);
-
 export default MemoizedProduct;

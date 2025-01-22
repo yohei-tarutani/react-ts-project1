@@ -43,8 +43,6 @@ const Cart = () => {
   );
 
   const content = <main className="main main--cart">{pageContent}</main>;
-
   return content;
 };
-
 export default Cart;

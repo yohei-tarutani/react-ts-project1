@@ -17,10 +17,7 @@ const Footer = ({ viewCart }: PropsType) => {
       <p>Shopping Cart &copy; {year}</p>
     </>
   );
-
   const content = <footer className="footer">{pageContent}</footer>;
-
   return content;
 };
-
 export default Footer;
