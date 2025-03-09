@@ -75,7 +75,7 @@ const CartLineItem = ({ item, dispatch, REDUCER_ACTIONS }: PropsType) => {
         title="Remove Item From Cart"
         onClick={onRemoveFromCart}
       >
-        ❌
+        Delete
       </button>
     </li>
   );
