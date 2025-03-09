@@ -1,3 +1,9 @@
+# React + Typescript Project - Practice
+
+This project is based on the YouTube tutorials below provided by Dave Gray.
+- TypeScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours: https://www.youtube.com/watch?v=gieEQFIfgYc
+  (Chapter 16: React + TypeScript Project / Chapter 17: React + TypeScript Project Part 2)
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -6,6 +12,9 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+### Run this app with Vite
+`npm run dev`
 
 ## Expanding the ESLint configuration
 
