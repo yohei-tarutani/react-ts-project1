@@ -1,7 +1,7 @@
 # React + Typescript Project - Practice
-
-This project is based on the YouTube tutorials below provided by Dave Gray.
-- TypeScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours: https://www.youtube.com/watch?v=gieEQFIfgYc
+- Created a front-end part of a simple e-commerce site using React (Typescript) as a personal practice project.
+- This project is based on the YouTube tutorials below provided by Dave Gray.
+  - TypeScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours: https://www.youtube.com/watch?v=gieEQFIfgYc
   (Chapter 16: React + TypeScript Project / Chapter 17: React + TypeScript Project Part 2)
   
 ![Image](https://github.com/user-attachments/assets/181dc33b-edd8-4492-93b0-725f431837ff)
